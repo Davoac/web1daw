@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoiesfseif.png" alt="logo" width="250"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="introduccion.html">
+                                    Introduccion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pagina.html">
+                                    Pagina
+                                </a>
+                            </li>
+                            <li>
+                                <a href="clasificacion.html">
+                                    Clasificacion
+                                </a>
+                            </li>
+                            <li>
+                                <a href="horario.html">
+                                    Horario
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="villamuelas.html">
+                                    Villamuelas
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">MARCA</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="parrafos" class="py-3">
+                    <h2 class="text-center">INTRODUCCIÓN</h2>
+                    <p>Marca es un diario español de información deportiva, con sede en Madrid. Fundado en 1938.</p>
+                    <p> Es el periódico de pago más leído en España con 1 355 000 seguidores diarios.
+                    </p>Cada día ofrece quince ediciones diferentes: once regionales y tres uniprovinciales, además de la nacional. Sus principales competidores en cuanto a periódico deportivo son As, Mundo Deportivo y Sport.
+                    <p>Marca posee su propia edición digital en internet desde el 3 de marzo de 1997, una de las webs de deportes más visitada de España.<br> Del mismo modo, estrenó el 1 de febrero de 2001 su emisora de radio, Radio Marca, la primera radio exclusivamente deportiva de cobertura nacional. 
+                    </p>
+                    <h1>Galardones</h1>
+                    <p><strong>Trofeo pichichi</strong></p>
+                    <p>Otorgado desde la temporada 1952-53 al máximo goleador del Campeonato de Liga de Primera División. Los goles, contabilizados por el diario, son válidos para la Bota de Oro europea.</em></p>
+                    <p><strong>Trofeo Zamora</strong></p>
+                    <p>Reconocimiento al portero menos goleado del Campeonato de Liga de cada temporada desde su instauración en 1958.</p>
+                    <p><strong>Trofeo Zarra</strong></p>
+                    <p>Otorgado al máximo goleador español de cada temporada. Establecido en 2005 para las dos divisiones profesionales.</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; David Aguado
+            </h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

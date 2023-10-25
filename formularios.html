@@ -23,23 +23,23 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="parrafos.html">
-                                    Párrafos
+                                <a href="introduccion.html">
+                                    Introduccion
                                 </a>
                             </li>
                             <li>
-                                <a href="enlaces.html">
-                                    Enlaces
+                                <a href="pagina.html">
+                                    Pagina
                                 </a>
                             </li>
                             <li>
-                                <a href="listas.html">
-                                    Listas
+                                <a href="clasificacion.html">
+                                    Clasificacion
                                 </a>
                             </li>
                             <li>
-                                <a href="tablas.html">
-                                    Tablas
+                                <a href="horario.html">
+                                    Horario
                                 </a>
                             </li>
                             <li>
@@ -48,8 +48,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="multimedia.html">
-                                    Multimedia
+                                <a href="villamuelas.html">
+                                    Villamuelas
                                 </a>
                             </li>
                         </ul>
@@ -61,7 +61,7 @@
         </header>
         <main class="shadow">
             <div class="px-3">
-                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+                <h1 class="text-center bg-azul-o text-white py-3">MARCA</h1>
             </div>
             <div class="px-3">
                 <hr>
@@ -70,7 +70,7 @@
                 <div id="formularios" class="py-3">
                     <h2 class="text-center">FORMULARIOS</h2>
                     <form action="kk.php" method="get" class="form-login">
-                        <h3>Formulario de Login</h3>
+                        <h3>Formulario para Registrarte</h3>
                         <fieldset>
                             <legend>
                                 Login
@@ -82,10 +82,10 @@
 
                     </form>
                     <form action="kk.php" method="get" class="form-registro">
-                        <h3>Formulario registro</h3>
+                        <h3>Formulario para saber tus preferencias</h3>
                         <fieldset>
                             <legend>
-                                Registro
+                                Preferencias
                             </legend>
                             <p><label for="">input type text</label>
                                 <input type="text" name="nombre" id="" placeholder="Name">
@@ -93,43 +93,22 @@
                             <p><label for="">input type password</label>
                                 <input type="password" name="clave" id="" placeholder="Password">
                             </p>
-                            <p>Fecha Nacimiento: (Lista simple -> tag select)
-                                <select name="dia" id="">
-                                    <option value="1">1</option>
-                                    <option value="1">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                                <select name="mes" id="">
-                                    <option value="1">Enero</option>
-                                    <option value="2">Febrero</option>
-                                    <option value="3">Marzo</option>
-                                    <option value="4">Abril</option>
-                                </select>
-                                <select name="anio" id="">
-                                    <option value="2001">2001</option>
-                                    <option value="2002">2002</option>
-                                </select>
-                            <p>Comentarios (tag textarea):<br><textarea name="comentarios" id="" cols="50"
-                                    rows="4"></textarea></p>
-                            <p>Aficiones: (tag input type checkbox)<br>
-                                <input type="checkbox" name="cine" id=""> Cine <br>
-                                <input type="checkbox" name="deportes" id=""> Deportes <br>
-                                <input type="checkbox" name="lectura" id=""> Lectura <br>
-                                <input type="checkbox" name="viajar" id=""> Viajar <br>
+                           
+                            <>Que deporte te gusta: (tag input type checkbox)<br>
+                                <input type="checkbox" name="baloncesto" id=""> Baloncesto <br>
+                                <input type="checkbox" name="futbol" id=""> Futbol <br>
+                                <input type="checkbox" name="tenis" id=""> Tenis <br>
+                                <input type="checkbox" name="padel" id=""> Padel <br>
+                                <input type="checkbox" name="formula 1" id=""> Formula 1 <br>
+                                <input type="checkbox" name="moto gp" id=""> Moto GP <br>
                             </p>
-                            <p>Estado civil: (tag input type radio)</p>
-                            <input type="radio" name="ec" id=""> Casado/a <br>
-                            <input type="radio" name="ec" id=""> Soltero/a <br>
-                            <input type="radio" name="ec" id=""> Viudo/a <br>
-                            <input type="radio" name="ec" id=""> Otros <br>
-                            </p>
-                            <p>Provincia: (tag select multiple)<br></p>
+                            <p>Equipo favorito<br></p>
                             <select name="provincia" id="" multiple size="5">
-                                <option value="1">Albacete</option>
-                                <option value="1">Ciudad Real</option>
-                                <option value="3">Cuenca</option>
-                                <option value="1">Guadalajara</option>
-                                <option value="1">Toledo</option>
+                                <option value="1">Barcelona</option>
+                                <option value="1">Real Madrid</option>
+                                <option value="3">Atletico de Madrid</option>
+                                <option value="1">Betis</option>
+                                <option value="1">Otro</option>
                             </select>
                             <p>Foto: (tag input type file) <input type="file" name="foto" id=""></p>
                             <p><input type="submit" value="Enviar" class="btn btn-blue"></p>
